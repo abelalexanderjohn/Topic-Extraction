@@ -29,8 +29,6 @@ nltk.download('wordnet')
     [nltk_data] Downloading package wordnet to
     [nltk_data]     C:\Users\abelj\AppData\Roaming\nltk_data...
     [nltk_data]   Package wordnet is already up-to-date!
-    
-
 
 
 
@@ -52,19 +50,6 @@ text_docs_df.head(3)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -247,8 +232,3 @@ for idx, topic in final_lda_model.show_topics(formatted=False, num_words=5):
     Topic 3: attention, critical, immediate, climate, issue
     Topic 4: digital, platform, become, cybersecurity, way
     
-
-
-```python
-
-```
